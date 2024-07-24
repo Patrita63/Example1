@@ -1,0 +1,12 @@
+.myclass {
+	background: aqua
+}
+
+/* hidden div */
+.divHidden {
+	visibility: hidden
+}
+
+.divVisible {
+	visibility: visible
+}

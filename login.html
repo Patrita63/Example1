@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>First Page Bootstrap 5</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script> -->
+		<script src="./js/jquery.js"></script>
+		<link href="./css/bootstrap.css" rel="stylesheet">
+		<script src="./js/bootstrap.js"></script>
+		
+		<link href="./css/mystyle.css" rel="stylesheet">
+		<script src="./js/myjavascript.js"></script>
+	</head>
+	<body class="myclass">
+		<div id="mainpanel" class="container mt-5" >
+            <div id="loginpanel" class="container mt-5" display: flex; justify-content: center; align-items: center; style="width: fit-content;">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span>Username:</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input id="username" type="text" value="p.tardiolobonifazi@vivasoft.it" style="width: 250px;" ></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span>Password:</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input id="password" type="password" value="Paperino01" style="width: 250px;"></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><span>Conferma Password:</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input id="confirmpassword" type="password" value="Paperino01" style="width: 250px;"></input>
+                    </div>
+                </div>
+			</div>
+            <br>
+            <br>
+			<div class="row">
+				
+				<div class="col-sm-12" style="text-align: center;">
+					<button id="btnlogin" type="button" class="btn btn-primary" onclick="login()" >Login</button>
+				</div>
+			
+			</div>
+			
+			<!--
+			<div class="row">
+				<div id="divInfo" style="visibility: hidden" class="col-sm-12">
+				dfs cnbn
+				</div>
+			</div>
+			-->
+			
+			<div class="row">
+				<div id="divInfo" class="col-sm-12 divHidden">
+				dfs cnbn
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
