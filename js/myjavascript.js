@@ -24,7 +24,6 @@ function login()
 		
 		var msg = "Il campo <strong>username</strong> deve avere almeno " +  (USERNAMELENGTH + 1 ) + " caratteri";
 		manageDivInfo(msg);
-		
 		return;
 	}
 	

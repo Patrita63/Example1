@@ -1,0 +1,15 @@
+.bodyBackground {
+	background: rgb(163, 209, 209)
+}
+
+.car-container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
