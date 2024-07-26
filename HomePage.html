@@ -32,16 +32,44 @@
 				</div>
 			</div>
 
-
-
-
-
-
 			<div class="row">
 				<div id="divResult" class="col-sm-12">
 				
 				</div>
 			</div>
+
+			<br>
+			<div id="combocascade" class="container mt-5" display: flex; justify-content: center; align-items: center; style="width: fit-content;">
+				<!-- javascript - How to populate HTML Combo box with JSON file
+				https://stackoverflow.com/questions/68609509/get-data-from-json-file-to-populate-dropdown-and-display-other-data-on-select-dr -->
+			
+				<div class="row">
+                    <div class="col-sm-12">
+						<select id="selectProvider" class="form-select" aria-label="Default select example" onchange="PopulateDropDownListTecnologia()">
+							<option value="0">Select a provider</option>
+						</select>
+					</div>
+				</div>
+				<br> 
+
+				<div class="row">
+                    <div class="col-sm-12">
+						<select id="selectTecnologia" class="form-select" aria-label="Default select example" style="visibility: hidden;" onchange="PopulateDropDownListCorso()">
+							<option value="0">Select a technology</option>
+						</select>
+					</div>
+				</div>
+				<br>
+
+				<div class="row">
+                    <div class="col-sm-12">
+						<select id="selectCorso" class="form-select" aria-label="Default select example" style="visibility: hidden;">
+							<option value="0">Select a course</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
 		 </div>
 	</body>
 </html>
